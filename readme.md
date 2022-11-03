@@ -6,7 +6,7 @@
  - _sph_md5_  **--->** ```md5(input,size)```
 
 ## Build
-Run ```./build.sh``` script, that will out builded python lib in **build/** directory
+Run ```./build.sh``` script, and builded python lib will appear in **build/** directory
 
 ## Example usage
 
