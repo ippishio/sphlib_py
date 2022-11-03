@@ -1,6 +1,6 @@
 # **sphlib_py**     ⚠️WIP⚠️
 ## **About**
-### This is an python bind for [coruus/sphlib](https://github.com/coruus/sphlib)
+### This is an python bind for [coruus/sphlib](https://github.com/coruus/sphlib), made using [pybind11](https://github.com/pybind/pybind11)
 
  ### Functions, that already done:
  - _sph_md5_  **--->** ```md5(input,size)```
@@ -10,7 +10,8 @@ Run ```./build.sh``` script, and builded python lib will appear in **build/** di
 
 ## Example usage
 
-```import sphlib_py
+```
+import sphlib_py
 input_string = "Hello bebra!"
 output = sphlib_py.md5(input_string.encoder("utf-8"), 12)
 print(output)
